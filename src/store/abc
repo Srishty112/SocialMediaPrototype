@@ -1,0 +1,5 @@
+                <div className="note-date grey-text">{moment(item.createdAt.toDate()).fromNow()}</div>
+
+
+
+                  <div class="title">{project.title}</div>

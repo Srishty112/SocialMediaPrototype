@@ -1,0 +1,43 @@
+.npbtn{
+  margin: 0%;
+  margin-top: 5%;
+  margin-left:11%;
+  margin-right:5%
+}
+
+.mob{display: inline;}
+.lap{display: none;}
+
+
+.title{
+  font-size: 140%;
+}
+
+#notice{
+  right: 0;
+  top:10%;
+  width:60%;
+}
+
+.col1{
+  margin-bottom: 10%;
+}
+
+.ab{
+  display: none;
+}
+
+.navbar{
+    padding-right: 0%;
+}
+
+.dropdown{
+  margin-right: 4%;
+  padding:3%;
+  font-size: 90%;
+}
+
+img{
+  max-width: 2.9in;
+}
+

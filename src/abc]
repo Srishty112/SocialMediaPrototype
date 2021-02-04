@@ -1,0 +1,46 @@
+<div className= "container profile">
+                    <h5 className="card-title white blue-text mar">
+                    
+                    { (person && auth.uid===person.id) ? <c><i class="material-icons">pan_tool </i> Hello,</c>:null}
+                    {person ?<c>{person.firstName} {person.lastName}
+                    <i class="small material-icons right">account_circle</i>
+                    </c>: null}                    
+                    </h5>
+                    
+                    
+                <div className="row ">
+                <div className="col s12 m6">
+                {person && person.image? <img src={person.image} width="80" height="80" class="out img"/>:null}
+                {
+                  projects && projects.map(project => {
+                  if(project.AuthorId === id)
+                  return (
+                    <c>{console.log(no++)}<Projectsummary project={project} users={users}  key={project.id} /></c>
+                                        
+                  ) 
+                  else return null
+                })}
+                {no===0? <c>No Projects Yet :-(</c>: null}
+                </div>
+                <div className="col s12 m6 offser-m1 right mar"> 
+                <Allprofiles users={users} aid={auth.uid}/>                          
+                  </div>
+                
+               </div>
+                 </div>
+
+
+export const handleDP =(Link, id)=>{
+    return(dispatch,getState, {getFirebase, getFirestore})=>{
+  
+        const firestore= getFirestore();
+        firestore.collection('users').doc(id).update({
+          image: Link
+  
+        }).then(()=>{
+            dispatch({type: 'CREATE_PROJECT', id});
+        }).catch((err)=>{
+            dispatch({type: 'CREATE_PROJECT_ERROR', err});
+        })
+    }
+  }

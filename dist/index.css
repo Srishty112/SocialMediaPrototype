@@ -1,0 +1,296 @@
+html{
+  min-height: 100%;
+}
+
+
+
+.dashboard{
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
+
+#notice{
+  z-index: 10;
+  position: absolute;
+  right: 0;
+  width:20%;
+}
+
+.title{
+  color: rgb(28, 114,254);
+  font-size: 180%;
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-bottom:2%;
+}
+
+
+
+.pep-card{
+  padding: 4%;
+  padding-bottom:0px;
+}
+
+.stitle{
+  font-size: 150%;
+  font-weight: 600;
+  color: rgb(28, 114,254);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+o{
+  color: rgb(255, 136, 0);
+  font-weight: 600;
+}
+
+.mob{
+  display: none;
+}
+
+p{
+  padding-left: 9%;
+  font-style: italic;
+  font-size: 90%;
+}
+
+
+.rkn{
+  padding-left: 8.5%;
+}
+
+
+.grey-text-small{
+  font-size: 13px;
+  color: grey;
+}
+
+.pimg{
+  margin-right:10px;
+}
+
+.pcont{
+  padding:5%;
+  padding-bottom:0%;
+}
+.leftright{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.plist{
+  padding:3%
+}
+
+
+
+.project-summary{
+  margin-top: 5%;
+}
+
+.adi{
+  margin-bottom: 2%;
+  margin-right: 4%;
+
+}
+
+.rot{
+  transform: rotate(-60deg);
+}
+k1{
+  display: none;
+}
+
+
+
+
+.a{
+  display: none;
+}
+
+.npt{
+  font-size: 150%;
+  color: rgb(2, 165, 2);
+}
+
+.nono{
+  font-size:130%;
+  background-color: red;
+  padding-right: 5px;
+  padding-left: 5px;
+  border-radius: 30%;
+}
+
+.mar{
+  padding:  1%
+}
+
+.add{
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  margin-left: 2%;
+  margin-right: 3%;
+}
+
+.img{
+  border-radius: 50%;
+  margin-top: 1%;
+} 
+
+
+.navbar{
+  padding-bottom:1%;
+  padding-right:5%;
+}
+
+
+
+.home{
+  margin-top: 2%;
+  margin-left: 10%;
+}
+
+.edit{
+  margin-left: 2%;
+}
+
+
+
+.notice{
+  padding: 4%;
+  border-radius: 1%;
+  margin-right:2%
+}
+
+.trapezoid {
+	border-bottom: 25px solid rgb(136, 136, 136);
+	border-right: 15px solid transparent;
+	height: 0;
+  width: 20%;
+  padding-left: 1%;
+  color: white;
+  font-size: 90%;
+}
+
+
+textarea::placeholder {
+  color:rgb(156, 156, 156);  
+  font-style: italic;
+}
+
+.dropdown{
+  top: 2%;
+  margin-right: 4%;
+  padding:1%;
+  padding-right:2%;
+  font-size: 90%;
+}
+
+.all-profile{
+  padding:3%;
+}
+
+
+
+.col1{
+  margin-right:4%;
+}
+
+
+.img1{
+  background-image: url(./img1.jpg);
+}
+
+textarea{
+  size: 200%;
+}
+
+.npbtn{
+  margin-left: 62%;
+  margin-top: 2%;
+  margin-right: 2%;
+  padding-right: 2%;
+  padding-bottom: 0.8%;
+  padding-top: 0.7%;
+  border-radius: 20px;
+  font-size: 80%;
+}
+
+.delete{
+  margin-left: 35%;
+}
+
+
+.card-content1{
+padding: 6%;
+padding-left: 3%;
+padding-top: 3%;
+}
+
+.create{
+  width: 80%;
+}
+
+
+img{
+  max-width: 3in;
+  max-height: auto;
+}
+
+.out{
+  border:white;
+  border-style: solid;
+  offset: 20%;
+}
+
+
+.i22{
+  background-image: url(./send.png);
+}
+.li2{
+  background-image: url(./li2.png);
+  margin-right: 2%;
+}
+.li{
+  background-image: url(./li.png);
+  margin-right: 2%;
+}
+.li3{
+  background-image: url(./li3.png);
+  margin-right: 2%;
+}
+
+.mar1{
+  margin-left: 40%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url(./img.jpg);
+  background-size: 100%;
+  background-position: bottom;
+  background-color: #95e8f3;
+  min-height: 100%;
+}
+.blue1{
+  margin-top: 3%;
+}
+
+
+.comment{
+  background-color: white;
+  padding-top: 1%;
+  padding-left: 2%;
+  font-size: 85%;
+  padding-bottom: 1%;
+  border-radius: 5px;
+}
+
+form{
+  padding: 20px;
+  margin-top: 60px;
+}
+
